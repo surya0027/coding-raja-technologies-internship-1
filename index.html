@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Gernator Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="title">Resume Gernator Tool<div id="createdby">by chandan kr.</div>
+    </div>
+    <!-- main form  box  -->
+    <div class="main-form" id="form">
+
+        <!-- peronal detail -->
+        <div class="form" id="f1id">
+            <h2 id="h2id">Personal information</h2>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" placeholder="enter your name">
+
+            <br>
+            <label for="phone-number">Phone no.</label><br>
+            <input type="text" id="phone-number" placeholder="enter your phone no.">
+
+            <br>
+            <label for="address">Address</label><br>
+            <textarea type="text" id="address" placeholder="enter your address" rows="2" height="60px"
+                width="60px"></textarea><br><br>
+
+
+            <!-- social-link-list -->
+
+            <h3>Important link</h3>
+            <div class="social-link">
+                <label for="insta">Instagram</label><br>
+                <input type="text" id="insta" placeholder="instagram link">
+                <br>
+                <label for="fb">Facebook</label><br>
+                <input type="text" id="fb" placeholder="facebook link">
+                <br>
+                <label for="Linkdin">Linkdin</label><br>
+                <input type="text" id="linkdin" placeholder="Linkdin link">
+            </div>
+        </div>
+
+
+
+        <!-- professional form  -->
+        <div class="form" id="f2id">
+            <h2>Professional information</h2>
+
+
+            <label for="Objective">Objective</label><br>
+            <textarea type="text" id="one" placeholder="your Objective here"></textarea>
+
+            <br>
+            <label for="work-experience">Work experience</label><br>
+            <textarea type="text" id="work-experience" placeholder="your work experience here"></textarea>
+            <br>
+
+            <br><br>
+            <label for="acadmic-qualification">Acadmic Qualification</label><br>
+            <textarea type="text" id="acadmic-qualification" placeholder="your acadmic qualification here" rows="2"
+                height="60px" width="60px"></textarea>
+            <br>
+
+
+
+        </div>
+
+        <div><button class="submit-button" onclick=sbtn()>Gernate now</button></div>
+    </div>
+
+
+
+    <!-- started here gernated cv results page after submitted -->
+
+    <div class="main-form-template" id="form-template">
+
+        <div class="left">
+
+            <div class="profile">
+                <img src="chandan.webp" alt="photo">
+                <h1 id="profile-name-1">chandan kumar</h1>
+                <p id="phone-number-t">8527307240,979878797</p>
+                <p id="address-t">bahlolpur sec-65,noida,up</p>
+            </div>
+            <div class="social-link">
+                <ul>
+                    <li id="insta-t">https://www.instagram.com</li>
+                    <li id="fb-t">https://www.facebook.com</li>
+                    <li id="linkdin-t">https://www.facebook.com</li>
+
+                </ul>
+
+
+            </div>
+
+
+
+        </div>
+
+        <!-- right box started here  -->
+        <div class="right">
+            <div id="profile-name-2">
+                <h1 class="profile-name">chandan kumar</h1>
+            </div>
+            <div class="heading">
+                <h2>Objective</h2>
+            </div>
+            <div class="heading1-content" id="one-t">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam a
+                    accusamus iusto deleniti dolores, ullam necessitatibus error sunt incidunt explicabo fugit debitis.
+                    Laborum aliquam est assumenda beatae nulla quos non? Lorem ipsum dolor sit, amet consectetur
+                    adipisicing
+                    elit. Facere vel assumenda culpa omnis dolorem hic aspernatur minima suscipit rem quasi quam,
+                    voluptate
+                    quia tempore. Sed consectetur neque enim itaque molestias. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Voluptatum, odio, natus vero at rem, pariatur nemo tempora officiis corporis
+                    necessitatibus ullam facere? Et saepe recusandae quod! Saepe, veniam itaque? Exercitationem!
+                
+            </div>
+
+            <div class="heading">
+                <h2>Work experience</h2>
+            </div>
+            <div class="heading2-content" id="work-experience-t">Lorem ipsum dolor, sit amet consectetur adipisicing
+                elit. Laboriosam a
+                accusamus iusto deleniti dolores, ullam necessitatibus error sunt incidunt explicabo fugit debitis.
+                Laborum aliquam est assumenda beatae nulla quos non? Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit. Facere vel assumenda culpa omnis dolorem hic aspernatur minima suscipit rem quasi quam, voluptate
+                quia tempore. Sed consectetur neque enim itaque molestias. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Voluptatum, odio, natus vero at rem, pariatur nemo tempora officiis corporis
+                necessitatibus ullam facere? Et saepe recusandae quod! Saepe, veniam itaque? Exercitationem!
+            </div>
+
+            <div class="heading">
+                <h2>Acadmic qualification</h2>
+            </div>
+            <div class="heading3-content" id="acadmic-qualification-t">Lorem ipsum dolor, sit amet consectetur
+                adipisicing elit. Laboriosam a
+                accusamus iusto deleniti dolores, ullam necessitatibus error sunt incidunt explicabo fugit debitis.
+                Laborum aliquam est assumenda beatae nulla quos non? Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit. Facere vel assumenda culpa omnis dolorem hic aspernatur minima suscipit rem quasi quam, voluptate
+                quia tempore. Sed consectetur neque enim itaque molestias. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Voluptatum, odio, natus vero at rem, pariatur nemo tempora officiis corporis
+                necessitatibus ullam facere? Et saepe recusandae quod! Saepe, veniam itaque? Exercitationem!
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="script.js">
+</body>
+</html>
