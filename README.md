@@ -57,7 +57,7 @@ This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE
 
 ## Contact
 
-For questions or further information, please contact [Chandan kumar] at [chandan36024@gmail.com].
+For questions or further information, please contact [Surya Prakash] at [surya.suraj027@gmail.com].
 
 ---
 
